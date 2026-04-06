@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration debug="true">
+    <property name="APP_LOG_ROOT" value="log"/>
+    <property name="LOG_PATTERN" value='{ "level":"%p","user":"%X{userName}", "trace-Id":"%X{traceId}","span-Id":"%X{spanId}", "type":"%X{type}", "timestamp":"%d{ISO8601}", "module":"CustomerManagement", "thread":"%t","sub-module":"%F", "line":"%L","message":"%m"}%n'/>
+
+    <appender name="console" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <Pattern>%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n</Pattern>
+        </encoder>
+    </appender>
+
+    <!-- Async Appender for Console -->
+    <appender name="console-async" class="ch.qos.logback.classic.AsyncAppender">
+        <queueSize>500</queueSize>
+        <discardingThreshold>0</discardingThreshold>
+        <includeCallerData>false</includeCallerData>
+        <appender-ref ref="console"/>
+    </appender>
+
+    <appender name="customermanagementlog" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${APP_LOG_ROOT}/customer-management.log</file>
+        <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+            <Pattern>${LOG_PATTERN}</Pattern>
+        </encoder>
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <fileNamePattern>${APP_LOG_ROOT}/archived/customer-management.%d{yyyy-MM-dd}.%i.log</fileNamePattern>
+            <maxFileSize>2GB</maxFileSize>
+            <totalSizeCap>10GB</totalSizeCap> <!-- This comment is invalid in XML -->
+            <maxHistory>10</maxHistory> <!-- This comment is invalid in XML -->
+        </rollingPolicy>
+    </appender>
+
+    <appender name="adoptcustomerqueue-file" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${APP_LOG_ROOT}/customermanagement-kafka.log</file>
+        <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+            <Pattern>${LOG_PATTERN}</Pattern>
+        </encoder>
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <fileNamePattern>${APP_LOG_ROOT}/archived/customermanagement-kafka.%d{yyyy-MM-dd}.%i.log</fileNamePattern>
+            <maxFileSize>500MB</maxFileSize>
+            <totalSizeCap>2GB</totalSizeCap> <!-- This comment is invalid in XML -->
+            <maxHistory>5</maxHistory> <!-- This comment is invalid in XML -->
+        </rollingPolicy>
+    </appender>
+
+    <appender name="customermanagementlog-async" class="ch.qos.logback.classic.AsyncAppender">
+        <appender-ref ref="customermanagementlog" />
+        <queueSize>500</queueSize>
+        <discardingThreshold>0</discardingThreshold>
+        <includeCallerData>true</includeCallerData>
+    </appender>
+
+    <logger name="adoptcustomerqueue" level="DEBUG" additivity="false">
+        <appender-ref ref="adoptcustomerqueue-file"/>
+    </logger>
+
+<!--    <root>-->
+<!--        <appender-ref ref="console"/>-->
+<!--        <appender-ref ref="customermanagementlog-async"/>-->
+<!--    </root>-->
+    <!-- Root Logger -->
+    <root level="WARN">
+        <appender-ref ref="console-async"/>
+        <appender-ref ref="customermanagementlog-async"/>
+    </root>
+
+</configuration>

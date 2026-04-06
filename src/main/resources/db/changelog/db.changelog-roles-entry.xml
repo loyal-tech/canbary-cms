@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xmlns:pro="http://www.liquibase.org/xml/ns/pro"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd
+http://www.liquibase.org/xml/ns/pro http://www.liquibase.org/xml/ns/pro/liquibase-pro-3.8.xsd">
+
+
+    <!-- Remove old entries from the table -->
+    <changeSet id="ROLE000001" author="AKSHAY MEWADA">
+        <preConditions onFail="MARK_RAN">
+            <tableExists tableName="tblroles"/>
+        </preConditions>
+        <sql>
+            DELETE FROM tblroles;
+        </sql>
+    </changeSet>
+
+    <!-- Adding default roles -->
+    <changeSet id="ROLE000002" author="AKSHAY MEWADA">
+        <insert tableName="tblroles">
+            <column name="MVNOID" value="1"/>
+            <column name="roleid" valueNumeric="1"></column>
+            <column name="rolename" value="Admin"></column>
+            <column name="rstatus" value="Active"></column>
+            <column name="is_delete" value="0"></column>
+            <column name="sysrole" value="1"></column>
+            <column name="createbyname" value="admin admin"></column>
+            <column name="updatebyname" value="admin admin"></column>
+            <column name="CREATEDBYSTAFFID" value="1"></column>
+            <column name="LASTMODIFIEDBYSTAFFID" value="1"></column>
+            <column name="createdate" value="2021-10-03 18:53:48"></column>
+            <column name="lastmodifieddate" value="2021-10-03 18:53:48"></column>
+        </insert>
+    </changeSet>
+    <changeSet  id="SC0000000003" author="Shubham Chechani">
+        <preConditions onFail="MARK_RAN">
+            <sqlCheck expectedResult="0">
+                SELECT COUNT(*) FROM tblroles WHERE rolename='View_Role';
+            </sqlCheck>
+        </preConditions>
+        <insert tableName="tblroles">
+            <column name="MVNOID" value="1"/>
+            <column name="roleid" valueNumeric="2"></column>
+            <column name="rolename" value="View_Role"></column>
+            <column name="rstatus" value="Active"></column>
+            <column name="is_delete" value="0"></column>
+            <column name="sysrole" value="1"></column>
+            <column name="createbyname" value="admin admin"></column>
+            <column name="updatebyname" value="admin admin"></column>
+            <column name="createdbystaffid" value="1"></column>
+            <column name="lastmodifiedbystaffid" value="1"></column>
+            <column name="createdate" value="2021-10-03 18:53:48"></column>
+            <column name="lastmodifieddate" value="2021-10-03 18:53:48"></column>
+        </insert>
+    </changeSet>
+    <changeSet  id="SC0000000004" author="Shubham Chechani">
+        <preConditions onFail="MARK_RAN">
+            <sqlCheck expectedResult="0">
+                SELECT COUNT(*) FROM tblroles WHERE rolename='NOC_Role';
+            </sqlCheck>
+        </preConditions>
+        <insert tableName="tblroles">
+            <column name="MVNOID" value="1"/>
+            <column name="roleid" valueNumeric="3"></column>
+            <column name="rolename" value="NOC_Role"></column>
+            <column name="rstatus" value="Active"></column>
+            <column name="is_delete" value="0"></column>
+            <column name="sysrole" value="1"></column>
+            <column name="createbyname" value="admin admin"></column>
+            <column name="updatebyname" value="admin admin"></column>
+            <column name="createdbystaffid" value="1"></column>
+            <column name="lastmodifiedbystaffid" value="1"></column>
+            <column name="createdate" value="2021-10-03 18:53:48"></column>
+            <column name="lastmodifieddate" value="2021-10-03 18:53:48"></column>
+        </insert>
+    </changeSet>
+    <changeSet  id="SC0000000005" author="Shubham Chechani">
+        <preConditions onFail="MARK_RAN">
+            <sqlCheck expectedResult="0">
+                SELECT COUNT(*) FROM tblroles WHERE rolename='Support_Role';
+            </sqlCheck>
+        </preConditions>
+        <insert tableName="tblroles">
+            <column name="MVNOID" value="1"/>
+            <column name="roleid" valueNumeric="4"></column>
+            <column name="rolename" value="Support_Role"></column>
+            <column name="rstatus" value="Active"></column>
+            <column name="is_delete" value="0"></column>
+            <column name="sysrole" value="1"></column>
+            <column name="createbyname" value="admin admin"></column>
+            <column name="updatebyname" value="admin admin"></column>
+            <column name="createdbystaffid" value="1"></column>
+            <column name="lastmodifiedbystaffid" value="1"></column>
+            <column name="createdate" value="2021-10-03 18:53:48"></column>
+            <column name="lastmodifieddate" value="2021-10-03 18:53:48"></column>
+        </insert>
+    </changeSet>
+    <changeSet  id="SC0000000006" author="Shubham Chechani">
+        <preConditions onFail="MARK_RAN">
+            <sqlCheck expectedResult="0">
+                SELECT COUNT(*) FROM tblroles WHERE rolename='Franchise_Role';
+            </sqlCheck>
+        </preConditions>
+        <insert tableName="tblroles">
+            <column name="MVNOID" value="1"/>
+            <column name="roleid" valueNumeric="5"></column>
+            <column name="rolename" value="Franchise_Role"></column>
+            <column name="rstatus" value="Active"></column>
+            <column name="is_delete" value="0"></column>
+            <column name="sysrole" value="1"></column>
+            <column name="createbyname" value="admin admin"></column>
+            <column name="updatebyname" value="admin admin"></column>
+            <column name="createdbystaffid" value="1"></column>
+            <column name="lastmodifiedbystaffid" value="1"></column>
+            <column name="createdate" value="2021-10-03 18:53:48"></column>
+            <column name="lastmodifieddate" value="2021-10-03 18:53:48"></column>
+        </insert>
+    </changeSet>
+
+    <changeSet  id="SC0000000007" author="Shubham Chechani">
+        <preConditions onFail="MARK_RAN">
+            <sqlCheck expectedResult="0">
+                SELECT COUNT(*) FROM tblroles WHERE rolename='LCO_Role';
+            </sqlCheck>
+        </preConditions>
+        <insert tableName="tblroles">
+            <column name="MVNOID" value="1"/>
+            <column name="roleid" valueNumeric="6"></column>
+            <column name="rolename" value="LCO_Role"></column>
+            <column name="rstatus" value="Active"></column>
+            <column name="is_delete" value="0"></column>
+            <column name="sysrole" value="1"></column>
+            <column name="createbyname" value="admin admin"></column>
+            <column name="updatebyname" value="admin admin"></column>
+            <column name="createdbystaffid" value="1"></column>
+            <column name="lastmodifiedbystaffid" value="1"></column>
+            <column name="createdate" value="2021-10-03 18:53:48"></column>
+            <column name="lastmodifieddate" value="2021-10-03 18:53:48"></column>
+        </insert>
+    </changeSet>
+    <changeSet id="VKACL0000001" author="Varun Kumar">
+        <preConditions onFail="MARK_RAN">
+            <sqlCheck expectedResult="1">
+                select count(*) from  tblroles where roleid=1;
+            </sqlCheck>
+        </preConditions>
+        <sql>UPDATE tblroles set  MVNOID=2  where roleid=1;</sql>
+    </changeSet>
+    <changeSet id="VKACL0000002" author="Varun Kumar">
+        <preConditions onFail="MARK_RAN">
+            <sqlCheck expectedResult="1">
+                select count(*) from  tblroles where roleid=2;
+            </sqlCheck>
+        </preConditions>
+        <sql>UPDATE tblroles set  MVNOID=2  where roleid=2;</sql>
+    </changeSet>
+    <changeSet id="VKACL0000003" author="Varun Kumar">
+        <preConditions onFail="MARK_RAN">
+            <sqlCheck expectedResult="1">
+                select count(*) from  tblroles where roleid=3;
+            </sqlCheck>
+        </preConditions>
+        <sql>UPDATE tblroles set  MVNOID=2  where roleid=3;</sql>
+    </changeSet>
+    <changeSet id="VKACL0000004" author="Varun Kumar">
+        <preConditions onFail="MARK_RAN">
+            <sqlCheck expectedResult="1">
+                select count(*) from  tblroles where roleid=4;
+            </sqlCheck>
+        </preConditions>
+        <sql>UPDATE tblroles set  MVNOID=2 where roleid=4;</sql>
+    </changeSet>
+    <changeSet id="VKACL0000005" author="Varun Kumar">
+        <preConditions onFail="MARK_RAN">
+            <sqlCheck expectedResult="1">
+                select count(*) from  tblroles where roleid=5;
+            </sqlCheck>
+        </preConditions>
+        <sql>UPDATE tblroles set  MVNOID=2  where roleid=5;</sql>
+    </changeSet>
+    <changeSet id="VKACL0000006" author="Varun Kumar">
+        <preConditions onFail="MARK_RAN">
+            <sqlCheck expectedResult="1">
+                select count(*) from  tblroles where roleid=6;
+            </sqlCheck>
+        </preConditions>
+        <sql>UPDATE tblroles set  MVNOID=2 where roleid=6; </sql>
+    </changeSet>
+</databaseChangeLog>
+

@@ -1,0 +1,143 @@
+"areaid","name","COUNTRYID","STATEID","is_deleted","createdbystaffid","createdate","lastmodifiedbystaffid","lastmodifieddate","createbyname","updatebyname","CITYID","status","pincodeid"
+1,Advalpal,1,1,0,1,"2021-09-09 11:11:39",1,"2021-09-09 11:11:39",admin admin,admin admin,1,Active,1
+2,Advoi,1,1,0,1,"2021-09-10 11:11:39",1,"2021-09-10 11:11:39",admin admin,admin admin,1,Active,2
+3,Agarwada,1,1,0,1,"2021-09-11 11:11:39",1,"2021-09-11 11:11:39",admin admin,admin admin,1,Active,3
+4,Aldona,1,1,0,1,"2021-09-12 11:11:39",1,"2021-09-12 11:11:39",admin admin,admin admin,1,Active,4
+5,Alto Betim,1,1,0,1,"2021-09-13 11:11:39",1,"2021-09-13 11:11:39",admin admin,admin admin,1,Active,5
+6,Alto-porvorim,1,1,0,1,"2021-09-14 11:11:39",1,"2021-09-14 11:11:39",admin admin,admin admin,1,Active,5
+7,Anjuna,1,1,0,1,"2021-09-15 11:11:39",1,"2021-09-15 11:11:39",admin admin,admin admin,1,Active,6
+8,Arambol,1,1,0,1,"2021-09-16 11:11:39",1,"2021-09-16 11:11:39",admin admin,admin admin,1,Active,7
+9,Arpora,1,1,0,1,"2021-09-17 11:11:39",1,"2021-09-17 11:11:39",admin admin,admin admin,1,Active,8
+10,Assagao,1,1,0,1,"2021-09-18 11:11:39",1,"2021-09-18 11:11:39",admin admin,admin admin,1,Active,9
+11,Assonora,1,1,0,1,"2021-09-19 11:11:39",1,"2021-09-19 11:11:39",admin admin,admin admin,1,Active,1
+12,Baga,1,1,0,1,"2021-09-20 11:11:39",1,"2021-09-20 11:11:39",admin admin,admin admin,1,Active,8
+13,Bambolim Camp,1,1,0,1,"2021-09-21 11:11:39",1,"2021-09-21 11:11:39",admin admin,admin admin,1,Active,10
+14,Bambolim Complex,1,1,0,1,"2021-09-22 11:11:39",1,"2021-09-22 11:11:39",admin admin,admin admin,1,Active,11
+15,Bastora,1,1,0,1,"2021-09-23 11:11:39",1,"2021-09-23 11:11:39",admin admin,admin admin,1,Active,9
+16,Batim,1,1,0,1,"2021-09-24 11:11:39",1,"2021-09-24 11:11:39",admin admin,admin admin,1,Active,12
+17,Betim,1,1,0,1,"2021-09-25 11:11:39",1,"2021-09-25 11:11:39",admin admin,admin admin,1,Active,13
+18,Betki,1,1,0,1,"2021-09-26 11:11:39",1,"2021-09-26 11:11:39",admin admin,admin admin,1,Active,14
+19,Bicholim,1,1,0,1,"2021-09-27 11:11:39",1,"2021-09-27 11:11:39",admin admin,admin admin,1,Active,15
+20,Bicholim Industrial estate,1,1,0,1,"2021-09-28 11:11:39",1,"2021-09-28 11:11:39",admin admin,admin admin,1,Active,16
+21,Birondam,1,1,0,1,"2021-09-29 11:11:39",1,"2021-09-29 11:11:39",admin admin,admin admin,1,Active,17
+22,C.C.altinho,1,1,0,1,"2021-09-30 11:11:39",1,"2021-09-30 11:11:39",admin admin,admin admin,1,Active,18
+23,Caisua,1,1,0,1,"2021-10-01 11:11:39",1,"2021-10-01 11:11:39",admin admin,admin admin,1,Active,6
+24,Calangute,1,1,0,1,"2021-10-02 11:11:39",1,"2021-10-02 11:11:39",admin admin,admin admin,1,Active,8
+25,Calvim,1,1,0,1,"2021-10-03 11:11:39",1,"2021-10-03 11:11:39",admin admin,admin admin,1,Active,19
+26,Camurlim,1,1,0,1,"2021-10-04 11:11:39",1,"2021-10-04 11:11:39",admin admin,admin admin,1,Active,9
+27,Canca,1,1,0,1,"2021-10-05 11:11:39",1,"2021-10-05 11:11:39",admin admin,admin admin,1,Active,20
+28,Candepar,1,1,0,1,"2021-10-06 11:11:39",1,"2021-10-06 11:11:39",admin admin,admin admin,1,Active,21
+29,Candolim,1,1,0,1,"2021-10-07 11:11:39",1,"2021-10-07 11:11:39",admin admin,admin admin,1,Active,22
+30,Cansarvornem,1,1,0,1,"2021-10-08 11:11:39",1,"2021-10-08 11:11:39",admin admin,admin admin,1,Active,3
+31,Carambolim,1,1,0,1,"2021-10-09 11:11:39",1,"2021-10-09 11:11:39",admin admin,admin admin,1,Active,23
+32,Caranzalem,1,1,0,1,"2021-10-10 11:11:39",1,"2021-10-10 11:11:39",admin admin,admin admin,1,Active,24
+33,Carapur,1,1,0,1,"2021-10-11 11:11:39",1,"2021-10-11 11:11:39",admin admin,admin admin,1,Active,25
+34,Carona,1,1,0,1,"2021-10-12 11:11:39",1,"2021-10-12 11:11:39",admin admin,admin admin,1,Active,19
+35,Chimbel,1,1,0,1,"2021-10-13 11:11:39",1,"2021-10-13 11:11:39",admin admin,admin admin,1,Active,26
+36,Chorao,1,1,0,1,"2021-10-14 11:11:39",1,"2021-10-14 11:11:39",admin admin,admin admin,1,Active,27
+37,Colvale,1,1,0,1,"2021-10-15 11:11:39",1,"2021-10-15 11:11:39",admin admin,admin admin,1,Active,28
+38,Corgao,1,1,0,1,"2021-10-16 11:11:39",1,"2021-10-16 11:11:39",admin admin,admin admin,1,Active,3
+39,Corjuem,1,1,0,1,"2021-10-17 11:11:39",1,"2021-10-17 11:11:39",admin admin,admin admin,1,Active,4
+40,Corlim Ie,1,1,0,1,"2021-10-18 11:11:39",1,"2021-10-18 11:11:39",admin admin,admin admin,1,Active,23
+41,Cotorem,1,1,0,1,"2021-10-19 11:11:39",1,"2021-10-19 11:11:39",admin admin,admin admin,1,Active,17
+42,Cudne,1,1,0,1,"2021-10-20 11:11:39",1,"2021-10-20 11:11:39",admin admin,admin admin,1,Active,25
+43,Cumbharjua,1,1,0,1,"2021-10-21 11:11:39",1,"2021-10-21 11:11:39",admin admin,admin admin,1,Active,14
+44,Curca,1,1,0,1,"2021-10-22 11:11:39",1,"2021-10-22 11:11:39",admin admin,admin admin,1,Active,12
+45,Darbandora,1,1,0,1,"2021-10-23 11:11:39",1,"2021-10-23 11:11:39",admin admin,admin admin,1,Active,21
+46,Dhargalim,1,1,0,1,"2021-10-24 11:11:39",1,"2021-10-24 11:11:39",admin admin,admin admin,1,Active,28
+47,Dodamarg,1,1,0,1,"2021-10-25 11:11:39",1,"2021-10-25 11:11:39",admin admin,admin admin,1,Active,1
+48,Fontainhas,1,1,0,1,"2021-10-26 11:11:39",1,"2021-10-26 11:11:39",admin admin,admin admin,1,Active,18
+49,Goa-Velha,1,1,0,1,"2021-10-27 11:11:39",1,"2021-10-27 11:11:39",admin admin,admin admin,1,Active,12
+50,Goa University,1,1,0,1,"2021-10-28 11:11:39",1,"2021-10-28 11:11:39",admin admin,admin admin,1,Active,29
+51,Guleli,1,1,0,1,"2021-10-29 11:11:39",1,"2021-10-29 11:11:39",admin admin,admin admin,1,Active,17
+52,Guirim,1,1,0,1,"2021-10-30 11:11:39",1,"2021-10-30 11:11:39",admin admin,admin admin,1,Active,9
+53,Ibrampur,1,1,0,1,"2021-10-31 11:11:39",1,"2021-10-31 11:11:39",admin admin,admin admin,1,Active,1
+54,Kerim,1,1,0,1,"2021-11-01 11:11:39",1,"2021-11-01 11:11:39",admin admin,admin admin,1,Active,25
+55,Malar,1,1,0,1,"2021-11-02 11:11:39",1,"2021-11-02 11:11:39",admin admin,admin admin,1,Active,30
+56,Mandrem,1,1,0,1,"2021-11-03 11:11:39",1,"2021-11-03 11:11:39",admin admin,admin admin,1,Active,31
+57,Mandur,1,1,0,1,"2021-11-04 11:11:39",1,"2021-11-04 11:11:39",admin admin,admin admin,1,Active,32
+58,Mapusa,1,1,0,1,"2021-11-05 11:11:39",1,"2021-11-05 11:11:39",admin admin,admin admin,1,Active,9
+59,Mapusa I.E.,1,1,0,1,"2021-11-06 11:11:39",1,"2021-11-06 11:11:39",admin admin,admin admin,1,Active,9
+60,Marcaim,1,1,0,1,"2021-11-07 11:11:39",1,"2021-11-07 11:11:39",admin admin,admin admin,1,Active,33
+61,Maulinge,1,1,0,1,"2021-11-08 11:11:39",1,"2021-11-08 11:11:39",admin admin,admin admin,1,Active,15
+62,Mauxi,1,1,0,1,"2021-11-09 11:11:39",1,"2021-11-09 11:11:39",admin admin,admin admin,1,Active,17
+63,Mayem,1,1,0,1,"2021-11-10 11:11:39",1,"2021-11-10 11:11:39",admin admin,admin admin,1,Active,15
+64,Menkurem,1,1,0,1,"2021-11-11 11:11:39",1,"2021-11-11 11:11:39",admin admin,admin admin,1,Active,28
+65,Moira,1,1,0,1,"2021-11-12 11:11:39",1,"2021-11-12 11:11:39",admin admin,admin admin,1,Active,9
+66,Morjim,1,1,0,1,"2021-11-13 11:11:39",1,"2021-11-13 11:11:39",admin admin,admin admin,1,Active,3
+67,Morlem,1,1,0,1,"2021-11-14 11:11:39",1,"2021-11-14 11:11:39",admin admin,admin admin,1,Active,25
+68,Mulgao,1,1,0,1,"2021-11-15 11:11:39",1,"2021-11-15 11:11:39",admin admin,admin admin,1,Active,1
+69,N B verem,1,1,0,1,"2021-11-16 11:11:39",1,"2021-11-16 11:11:39",admin admin,admin admin,1,Active,34
+70,Nachinola,1,1,0,1,"2021-11-17 11:11:39",1,"2021-11-17 11:11:39",admin admin,admin admin,1,Active,4
+71,Nagargaon,1,1,0,1,"2021-11-18 11:11:39",1,"2021-11-18 11:11:39",admin admin,admin admin,1,Active,17
+72,Nagzar,1,1,0,1,"2021-11-19 11:11:39",1,"2021-11-19 11:11:39",admin admin,admin admin,1,Active,3
+73,Nanora,1,1,0,1,"2021-11-20 11:11:39",1,"2021-11-20 11:11:39",admin admin,admin admin,1,Active,1
+74,Nanorem,1,1,0,1,"2021-11-21 11:11:39",1,"2021-11-21 11:11:39",admin admin,admin admin,1,Active,17
+75,Navelim,1,1,0,1,"2021-11-22 11:11:39",1,"2021-11-22 11:11:39",admin admin,admin admin,1,Active,25
+76,Nerul,1,1,0,1,"2021-11-23 11:11:39",1,"2021-11-23 11:11:39",admin admin,admin admin,1,Active,35
+77,Neura,1,1,0,1,"2021-11-24 11:11:39",1,"2021-11-24 11:11:39",admin admin,admin admin,1,Active,32
+78,NIO Dona paula,1,1,0,1,"2021-11-25 11:11:39",1,"2021-11-25 11:11:39",admin admin,admin admin,1,Active,36
+79,Honda,1,1,0,1,"2021-11-26 11:11:39",1,"2021-11-26 11:11:39",admin admin,admin admin,1,Active,2
+80,Honda I.e.,1,1,0,1,"2021-11-27 11:11:39",1,"2021-11-27 11:11:39",admin admin,admin admin,1,Active,2
+81,Oxel,1,1,0,1,"2021-11-28 11:11:39",1,"2021-11-28 11:11:39",admin admin,admin admin,1,Active,37
+82,Ozari,1,1,0,1,"2021-11-29 11:11:39",1,"2021-11-29 11:11:39",admin admin,admin admin,1,Active,28
+83,Pale,1,1,0,1,"2021-11-30 11:11:39",1,"2021-11-30 11:11:39",admin admin,admin admin,1,Active,38
+84,Panaji,1,1,0,1,"2021-12-01 11:11:39",1,"2021-12-01 11:11:39",admin admin,admin admin,1,Active,18
+85,Parra,1,1,0,1,"2021-12-02 11:11:39",1,"2021-12-02 11:11:39",admin admin,admin admin,1,Active,20
+86,Parcem,1,1,0,1,"2021-12-03 11:11:39",1,"2021-12-03 11:11:39",admin admin,admin admin,1,Active,3
+87,Penha De france,1,1,0,1,"2021-12-04 11:11:39",1,"2021-12-04 11:11:39",admin admin,admin admin,1,Active,13
+88,Pernem,1,1,0,1,"2021-12-05 11:11:39",1,"2021-12-05 11:11:39",admin admin,admin admin,1,Active,3
+89,Piedade,1,1,0,1,"2021-12-06 11:11:39",1,"2021-12-06 11:11:39",admin admin,admin admin,1,Active,30
+90,Pilar,1,1,0,1,"2021-12-07 11:11:39",1,"2021-12-07 11:11:39",admin admin,admin admin,1,Active,39
+91,Pilerne,1,1,0,1,"2021-12-08 11:11:39",1,"2021-12-08 11:11:39",admin admin,admin admin,1,Active,35
+92,Pilgao,1,1,0,1,"2021-12-09 11:11:39",1,"2021-12-09 11:11:39",admin admin,admin admin,1,Active,15
+93,Pillem,1,1,0,1,"2021-12-10 11:11:39",1,"2021-12-10 11:11:39",admin admin,admin admin,1,Active,21
+94,Pirna,1,1,0,1,"2021-12-11 11:11:39",1,"2021-12-11 11:11:39",admin admin,admin admin,1,Active,28
+95,Pissurlem,1,1,0,1,"2021-12-12 11:11:39",1,"2021-12-12 11:11:39",admin admin,admin admin,1,Active,2
+96,Pomburpa,1,1,0,1,"2021-12-13 11:11:39",1,"2021-12-13 11:11:39",admin admin,admin admin,1,Active,19
+97,Ponda,1,1,0,1,"2021-12-14 11:11:39",1,"2021-12-14 11:11:39",admin admin,admin admin,1,Active,40
+98,Poriem,1,1,0,1,"2021-12-15 11:11:39",1,"2021-12-15 11:11:39",admin admin,admin admin,1,Active,25
+99,Poroscodem,1,1,0,1,"2021-12-16 11:11:39",1,"2021-12-16 11:11:39",admin admin,admin admin,1,Active,3
+100,Porvorim,1,1,0,1,"2021-12-17 11:11:39",1,"2021-12-17 11:11:39",admin admin,admin admin,1,Active,41
+101,Pratapnagar Harvale,1,1,0,1,"2021-12-18 11:11:39",1,"2021-12-18 11:11:39",admin admin,admin admin,1,Active,25
+102,Querim,1,1,0,1,"2021-12-19 11:11:39",1,"2021-12-19 11:11:39",admin admin,admin admin,1,Active,7
+103,Qurinpani,1,1,0,1,"2021-12-20 11:11:39",1,"2021-12-20 11:11:39",admin admin,admin admin,1,Active,7
+104,Reis Magos,1,1,0,1,"2021-12-21 11:11:39",1,"2021-12-21 11:11:39",admin admin,admin admin,1,Active,35
+105,Revora,1,1,0,1,"2021-12-22 11:11:39",1,"2021-12-22 11:11:39",admin admin,admin admin,1,Active,28
+106,Ribandar,1,1,0,1,"2021-12-23 11:11:39",1,"2021-12-23 11:11:39",admin admin,admin admin,1,Active,26
+107,Saipem,1,1,0,1,"2021-12-24 11:11:39",1,"2021-12-24 11:11:39",admin admin,admin admin,1,Active,22
+108,Salem,1,1,0,1,"2021-12-25 11:11:39",1,"2021-12-25 11:11:39",admin admin,admin admin,1,Active,1
+109,Saligao,1,1,0,1,"2021-12-26 11:11:39",1,"2021-12-26 11:11:39",admin admin,admin admin,1,Active,42
+110,Salvador De mundo,1,1,0,1,"2021-12-27 11:11:39",1,"2021-12-27 11:11:39",admin admin,admin admin,1,Active,13
+111,Sancordem,1,1,0,1,"2021-12-28 11:11:39",1,"2021-12-28 11:11:39",admin admin,admin admin,1,Active,21
+112,Sangolda,1,1,0,1,"2021-12-29 11:11:39",1,"2021-12-29 11:11:39",admin admin,admin admin,1,Active,42
+113,Sanquelim,1,1,0,1,"2021-12-30 11:11:39",1,"2021-12-30 11:11:39",admin admin,admin admin,1,Active,25
+114,Santa Cruz,1,1,0,1,"2021-12-31 11:11:39",1,"2021-12-31 11:11:39",admin admin,admin admin,1,Active,43
+115,Sanvordem,1,1,0,1,"2022-01-01 11:11:39",1,"2022-01-01 11:11:39",admin admin,admin admin,1,Active,17
+116,Secretariat,1,1,0,1,"2022-01-02 11:11:39",1,"2022-01-02 11:11:39",admin admin,admin admin,1,Active,5
+117,Sem Saligao,1,1,0,1,"2022-01-03 11:11:39",1,"2022-01-03 11:11:39",admin admin,admin admin,1,Active,42
+118,Shiroda,1,1,0,1,"2022-01-04 11:11:39",1,"2022-01-04 11:11:39",admin admin,admin admin,1,Active,44
+119,Sinquerim,1,1,0,1,"2022-01-05 11:11:39",1,"2022-01-05 11:11:39",admin admin,admin admin,1,Active,22
+120,Siolim,1,1,0,1,"2022-01-06 11:11:39",1,"2022-01-06 11:11:39",admin admin,admin admin,1,Active,37
+121,Sirgao,1,1,0,1,"2022-01-07 11:11:39",1,"2022-01-07 11:11:39",admin admin,admin admin,1,Active,1
+122,Siridao,1,1,0,1,"2022-01-08 11:11:39",1,"2022-01-08 11:11:39",admin admin,admin admin,1,Active,12
+123,Sirsaim,1,1,0,1,"2022-01-09 11:11:39",1,"2022-01-09 11:11:39",admin admin,admin admin,1,Active,45
+124,St Inez,1,1,0,1,"2022-01-10 11:11:39",1,"2022-01-10 11:11:39",admin admin,admin admin,1,Active,18
+125,St.Lourence,1,1,0,1,"2022-01-11 11:11:39",1,"2022-01-11 11:11:39",admin admin,admin admin,1,Active,46
+126,Succour Pssk,1,1,0,1,"2022-01-12 11:11:39",1,"2022-01-12 11:11:39",admin admin,admin admin,1,Active,41
+127,Surla,1,1,0,1,"2022-01-13 11:11:39",1,"2022-01-13 11:11:39",admin admin,admin admin,1,Active,25
+128,Tamboxem,1,1,0,1,"2022-01-14 11:11:39",1,"2022-01-14 11:11:39",admin admin,admin admin,1,Active,3
+129,Tarvalem,1,1,0,1,"2022-01-15 11:11:39",1,"2022-01-15 11:11:39",admin admin,admin admin,1,Active,44
+130,Thana,1,1,0,1,"2022-01-16 11:11:39",1,"2022-01-16 11:11:39",admin admin,admin admin,1,Active,17
+131,Tivim,1,1,0,1,"2022-01-17 11:11:39",1,"2022-01-17 11:11:39",admin admin,admin admin,1,Active,45
+132,Tivim Ie,1,1,0,1,"2022-01-18 11:11:39",1,"2022-01-18 11:11:39",admin admin,admin admin,1,Active,47
+133,Torxem,1,1,0,1,"2022-01-19 11:11:39",1,"2022-01-19 11:11:39",admin admin,admin admin,1,Active,3
+134,Tuem,1,1,0,1,"2022-01-20 11:11:39",1,"2022-01-20 11:11:39",admin admin,admin admin,1,Active,3
+135,Tuem I e,1,1,0,1,"2022-01-21 11:11:39",1,"2022-01-21 11:11:39",admin admin,admin admin,1,Active,3
+136,Ucassiam,1,1,0,1,"2022-01-22 11:11:39",1,"2022-01-22 11:11:39",admin admin,admin admin,1,Active,9
+137,Usgao,1,1,0,1,"2022-01-23 11:11:39",1,"2022-01-23 11:11:39",admin admin,admin admin,1,Active,48
+138,Valpoi,1,1,0,1,"2022-01-24 11:11:39",1,"2022-01-24 11:11:39",admin admin,admin admin,1,Active,17
+139,Varconda,1,1,0,1,"2022-01-25 11:11:39",1,"2022-01-25 11:11:39",admin admin,admin admin,1,Active,3
+140,Velguem O,1,1,0,1,"2022-01-26 11:11:39",1,"2022-01-26 11:11:39",admin admin,admin admin,1,Active,17
+141,Velha-goa,1,1,0,1,"2022-01-27 11:11:39",1,"2022-01-27 11:11:39",admin admin,admin admin,1,Active,49
+142,Virnora,1,1,0,1,"2022-01-28 11:11:39",1,"2022-01-28 11:11:39",admin admin,admin admin,1,Active,3

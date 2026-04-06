@@ -1,0 +1,103 @@
+server:
+  port: 30085
+
+spring:
+  application:
+    name: AdoptApiGatewayBss-Service
+#    kafka:
+#      bootstrap-servers: localhost:29092  # ✅ from host to Docker Kafka
+#      client-id: adopt-api-gateway
+#      properties:
+#        security.protocol: PLAINTEXT
+#        request.timeout.ms: 60000
+#        default.api.timeout.ms: 60000
+#        retries: 5
+#        reconnect.backoff.ms: 1000
+#        reconnect.backoff.max.ms: 10000
+#      admin:
+#        properties:
+#          bootstrap.servers: localhost:29092
+#        fail-fast: false
+#        auto-create: false
+  jackson:
+    serialization.write_dates_as_timestamps: false
+
+
+eureka:
+  instance:
+    instance-id: ${spring.application.name}-${server.port}
+    prefer-ip-address: true
+  client:
+    fetchRegistry: true
+    register-with-eureka: true
+    serviceUrl:
+      defaultZone: http://127.0.0.1:8761/eureka/
+
+
+#
+#ribbon:
+#  ReadTimeout: 60000
+#  connection-timeout: 3000
+#  eureka:
+#    enabled: true
+
+#zuul:
+#  routes:
+#    AdoptRadius-Service:
+#      path: /AdoptRadius/**
+#      service-id: AdoptRadiusBss-Service
+#      strip-prefix: false
+#
+#    AdoptNotification-Service:
+#      path: /AdoptNotification/**
+#      service-id: AdoptNotification-Service
+#      strip-prefix: false
+#
+#    AdoptSalesCrmsBss-Service:
+#      path: /api/v1/AdoptSalesCrmsBss/**
+#      service-id: AdoptSalesCrmsBss-Service
+#      strip-prefix: false
+#      sensitiveHeaders: Cookie,Set-Cookie,Access-Control-Allow-Credentials, Access-Control-Allow-Origin
+#
+#    AdoptTaskMgmt-Service:
+#      path: /AdoptTaskMgmt/**
+#      service-id: AdoptTaskMgmt-Service
+#      strip-prefix: false
+#
+#    AdoptIntegrationSystem-Service:
+#      path: /AdoptIntegrationSystem/**
+#      service-id: AdoptIntegrationSystem-Service
+#      strip-prefix: false
+#      sensitiveHeaders: Cookie,Set-Cookie,Access-Control-Allow-Credentials, Access-Control-Allow-Origin
+#
+#    AdoptKpimanagement-Service:
+#      path: /api/v1/KpiManagement/**
+#      service-id: AdoptKpimanagement-Service
+#      strip-prefix: false
+#      sensitiveHeaders: Cookie,Set-Cookie,Access-Control-Allow-Credentials, Access-Control-Allow-Origin
+#
+#    AdoptSample-Service:
+#      path: /api/v1/AdoptSample/**
+#      service-id: AdoptSample-Service
+#      strip-prefix: false
+#      sensitiveHeaders: Cookie,Set-Cookie,Access-Control-Allow-Credentials, Access-Control-Allow-Origin
+#
+#    AdoptTicketManagement-Service:
+#        path: /api/v1/TicketManagement/**
+#        service-id: AdoptTicketManagement-Service
+#        strip-prefix: false
+#        sensitiveHeaders: Cookie,Set-Cookie,Access-Control-Allow-Credentials, Access-Control-Allow-Origin
+#
+#    AdoptInventoryManagement-Service:
+#      path: /api/v1/AdoptInventoryManagement/**
+#      service-id: AdoptInventoryManagement-Service
+#      strip-prefix: false
+#      sensitiveHeaders: Cookie,Set-Cookie,Access-Control-Allow-Credentials, Access-Control-Allow-Origin
+#
+#
+#    AdoptApiGateWayCommon-Service:
+#      path: /api/v1/AdoptApiGateWayCommon/**
+#      service-id: AdoptApiGateWayCommon-Service
+#      strip-prefix: false
+#      sensitiveHeaders: Cookie,Set-Cookie,Access-Control-Allow-Credentials, Access-Control-Allow-Origin
+
