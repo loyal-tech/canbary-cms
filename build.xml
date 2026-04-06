@@ -1,0 +1,24 @@
+<project name="APIGateway" default="schemaexport" basedir=".">
+
+<target name="schemaexport">
+  <taskdef name="hibernatetool"
+    classname="org.hibernate.tool.ant.EnversHibernateToolTask"
+    classpathref="build.demo.classpath"/>
+
+  <hibernatetool destdir=".">
+    <classpath>
+      <fileset refid="lib.hibernate" />
+      <path location="${build.demo.dir}" />
+      <path location="${build.main.dir}" />
+    </classpath>
+    <jpaconfiguration persistenceunit="ConsolePU" />
+    <hbm2ddl
+      drop="false"
+      create="true"
+      export="false"
+      outputfilename="versioning-ddl.sql"
+      delimiter=";"
+      format="true"/>
+  </hibernatetool>
+</target>
+</project>
