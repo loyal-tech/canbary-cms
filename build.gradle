@@ -163,7 +163,8 @@ dependencies {
 //    implementation 'com.paytm:paytm-checksum:1.2.0' // or any other available newer/older version
 
     // compile "com.paytm:paytm-checksum:1.2.0"
-    compile files('libs/paytm-checksum-1.2.0.jar')
+    implementation files('libs/paytm-checksum-1.2.0.jar')
+    nnotationProcessor files('libs/paytm-checksum-1.2.0.jar')
     implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
     implementation 'org.apache.httpcomponents:httpclient:4.5.13'
     implementation 'com.google.code.gson:gson:2.9.0'
