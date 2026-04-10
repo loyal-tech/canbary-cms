@@ -27,10 +27,11 @@ sourceCompatibility = '1.8'
 repositories {
     mavenCentral()
     jcenter()
-    maven {
-        // url "https://artifactorypg.paytm.in/artifactory/libs-release"
-        // allowInsecureProtocol = true
-    }
+    mavenCentral()
+    // maven {
+    //     url "https://artifactorypg.paytm.in/artifactory/libs-release"
+    //     allowInsecureProtocol = true
+    // }
     /*  maven {
           url "https://iwf1.jfrog.io/artifactory/iwf-libs-release-local"
       }*/
