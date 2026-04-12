@@ -524,7 +524,7 @@ public class DiscountService extends AbstractService<Discount, DiscountPojo, Int
         try {
             Integer servicemapId = serviceMappingId.intValue();
             Optional<CustomerServiceMapping> optional = customerServiceMappingRepository.findById(servicemapId);
-            if (optional.isEmpty()) {
+            if (optional.isPresent()) {
                 result.put("showPopup", true);
                 result.put("message", "Service mapping not found.");
                 result.put("code", APIConstants.NOT_FOUND);
