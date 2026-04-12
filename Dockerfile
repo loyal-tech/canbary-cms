@@ -1,4 +1,4 @@
-FROM adoptnettech/openjdk:8
+FROM shubham240999/openjdk:8
 # Your app JAR setup
 WORKDIR /
 ARG JAR_FILE=build/libs/CustomerManagement-0.0.1-SNAPSHOT.jar
